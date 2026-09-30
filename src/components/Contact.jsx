@@ -11,7 +11,7 @@ function Contact() {
         </p>
 
         <div>
-          <p className="text-3xl md:text-5xl leading-tight">
+          <p className="text-2xl md:text-4xl leading-tight">
             Have a project in mind?
             <br />
             Let's work together.
@@ -19,7 +19,7 @@ function Contact() {
 
           <a
             href="mailto:ignacioguzmanok@gmail.com"
-            className="inline-block mt-10 text-sm border-b border-black"
+            className="inline-block mt-10 text-sm border-b border-black hover:opacity-50 transition-opacity"
           >
             ignacioguzmanok@gmail.com
           </a>

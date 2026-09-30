@@ -12,10 +12,7 @@ function About() {
 
         <div>
           <p className="text-2xl md:text-4xl leading-tight">
-  I'm a graphic designer and front-end developer based in Berlin.
-  I work across digital and print, combining visual design with code
-  to create websites, identities, record artwork and other things
-  that live somewhere between the two.
+  I'm a web developer and graphic designer based in Berlin. I work across digital and print, combining design and code to create websites, visual identities, record artwork and projects that live somewhere between design and technology.
 </p>
         </div>
 

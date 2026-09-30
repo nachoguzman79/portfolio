@@ -1,30 +1,38 @@
+import nachoPic from '../assets/NachoPic.jpg'
+
 function Hero() {
   return (
-   <section className="min-h-[75vh] flex flex-col justify-center">
+    <section className="min-h-screen px-6 md:px-10 flex items-center">
 
-      <h1 className="uppercase font-bold tracking-[-0.07em] leading-[0.76]">
-        <span className="block text-[17vw]">
-          Nacho
-        </span>
+      <div className="w-full max-w-[1450px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16">
 
-        <span className="block text-[20.5vw] mt-[0.04em]">
-          Guzmán
-        </span>
-      </h1>
+        {/* TEXT */}
+        <div className="md:pl-10">
 
-      <div className="mt-10 flex justify-between items-end text-sm md:text-base">
+          <p className="text-xs uppercase tracking-[0.3em] mb-8 text-black/45">
+            Berlin Based
+          </p>
 
-        <p>
-          Graphic Designer
-          <br />
-          & Front-End Developer
-        </p>
+          <h1 className="text-6xl md:text-7xl lg:text-8xl font-normal leading-[0.95] tracking-[-0.05em] whitespace-nowrap">
+            Nacho Guzmán
+          </h1>
 
-        <p className="text-right">
-          Berlin, Germany
-          <br />
-          2026
-        </p>
+         <p className="mt-4 text-2xl md:text-3xl lg:text-4xl leading-tight text-black/35 whitespace-nowrap">
+  Web Developer & Graphic Designer
+</p>
+
+        </div>
+
+        {/* PHOTO */}
+        <div className="flex justify-center md:justify-start">
+
+          <img
+  src={nachoPic}
+  alt="Nacho Guzmán"
+  className="w-full max-w-[580px] grayscale object-cover"
+/>
+
+        </div>
 
       </div>
 
