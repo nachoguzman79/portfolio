@@ -2,8 +2,8 @@ import nachoPic from '../assets/NachoPic.jpg'
 
 function Hero() {
   return (
-    <section className="min-h-screen px-6 md:px-10 flex items-center">
-
+    
+<section className="px-6 md:px-10 pt-20 pb-16 md:min-h-screen md:flex md:items-center">
       <div className="w-full max-w-[1450px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16">
 
         {/* TEXT */}
