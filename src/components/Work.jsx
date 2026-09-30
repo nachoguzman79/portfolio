@@ -360,39 +360,58 @@ function Work() {
 
             {/* PROJECT INFO */}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <div className="mb-12">
 
-              <div>
-
-                <p className="text-sm uppercase mb-2">
+              <div className="flex justify-between items-end border-b border-black pb-3 mb-6">
+                <p className="text-sm font-medium uppercase">
                   Web Design
                 </p>
 
-                <h2 className="text-4xl md:text-6xl font-medium uppercase leading-none">
-                  {webProjects[selectedWebProject].title}
-                </h2>
-
+                <p className="text-sm">
+                  {webProjects[selectedWebProject].year}
+                </p>
               </div>
 
+              <h2 className="text-5xl md:text-7xl lg:text-8xl font-medium uppercase leading-[0.9] tracking-tight max-w-5xl">
+                {webProjects[selectedWebProject].title}
+              </h2>
 
-              <div className="md:pt-6">
+              <div className="grid grid-cols-1 md:grid-cols-12 gap-y-8 md:gap-x-6 mt-10 md:mt-14 border-t border-black pt-5">
 
-                <p className="text-lg max-w-xl">
-                  {webProjects[selectedWebProject].description}
-                </p>
+                <div className="md:col-span-3">
+                  <p className="text-xs uppercase mb-2">
+                    Role
+                  </p>
 
-                <p className="text-sm mt-6">
-                  {webProjects[selectedWebProject].technologies}
-                </p>
+                  <p className="text-sm max-w-[15rem]">
+                    {webProjects[selectedWebProject].role}
+                  </p>
+                </div>
 
-                <a
-                  href={webProjects[selectedWebProject].url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-6 border-b border-black pb-1 hover:opacity-50 transition-opacity"
-                >
-                  Visit Website ↗
-                </a>
+                <div className="md:col-span-3">
+                  <p className="text-xs uppercase mb-2">
+                    Technologies
+                  </p>
+
+                  <p className="text-sm">
+                    {webProjects[selectedWebProject].technologies}
+                  </p>
+                </div>
+
+                <div className="md:col-span-6">
+                  <p className="text-lg md:text-xl leading-snug max-w-xl">
+                    {webProjects[selectedWebProject].description}
+                  </p>
+
+                  <a
+                    href={webProjects[selectedWebProject].url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-7 text-sm uppercase border-b border-black pb-1 hover:opacity-50 transition-opacity"
+                  >
+                    Visit Website ↗
+                  </a>
+                </div>
 
               </div>
 
