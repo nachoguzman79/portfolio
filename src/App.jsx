@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Work from './components/Work'
 import About from './components/About'
 import Contact from './components/Contact'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Work />
 
       <About />
+
+      <Skills />
 
       <Contact />
 
