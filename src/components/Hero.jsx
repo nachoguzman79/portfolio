@@ -1,10 +1,11 @@
+
 import nachoPic from '../assets/NachoPic.jpg'
 
 function Hero() {
   return (
-    
-<section className="px-6 md:px-10 pt-20 pb-16 md:min-h-screen md:flex md:items-center">
-      <div className="w-full max-w-[1450px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-16">
+    <section className="px-6 md:px-10 pt-12 pb-10 md:pt-20 md:pb-16 md:min-h-screen md:flex md:items-center">
+
+      <div className="w-full max-w-[1450px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-16">
 
         {/* TEXT */}
         <div className="md:pl-10">
@@ -44,7 +45,7 @@ function Hero() {
         </div>
 
         {/* PHOTO */}
-        <div className="flex justify-start md:justify-start">
+        <div className="flex justify-start">
 
           <img
             src={nachoPic}
