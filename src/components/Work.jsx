@@ -181,7 +181,7 @@ function Work() {
     }
   }, [selectedPoster, selectedRecord, selectedWebProject])
   return (
-    <section id="work" className="py-16 md:py-20">
+    <section id="work" className="pt-16 pb-0 md:pt-20 md:pb-0">
       {/* SELECTED WORK HEADER */}
       <div className="flex justify-between items-end border-b border-black pb-3">
         <h2 className="text-sm font-medium uppercase">
